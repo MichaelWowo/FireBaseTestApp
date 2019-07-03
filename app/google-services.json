@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1034764824864",
+    "firebase_url": "https://messagetestapp-1c09e.firebaseio.com",
+    "project_id": "messagetestapp-1c09e",
+    "storage_bucket": "messagetestapp-1c09e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034764824864:android:7d30b1476c82aaa7",
+        "android_client_info": {
+          "package_name": "coppernic.fr.firebasetestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034764824864-a30v68u3mlntdoqv1jlf7komtsikt5m0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "coppernic.fr.firebasetestapp",
+            "certificate_hash": "ecfc24b224926a6df2d373690e9806b0a57654d3"
+          }
+        },
+        {
+          "client_id": "1034764824864-j7aq9qbc6b9nhvkl1t8sl973viclouli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnKXTLW55EK5BrRSjB3Jover7tU7-53S0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034764824864-j7aq9qbc6b9nhvkl1t8sl973viclouli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

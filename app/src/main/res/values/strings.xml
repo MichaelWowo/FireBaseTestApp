@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirebaseTestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="channel_name">MIC_APP_CHANNEL</string>
+    <string name="channel_description">Not important channel use for mic app</string>
+</resources>
