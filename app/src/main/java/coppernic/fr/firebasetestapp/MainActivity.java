@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, "FirebaseInstanceId = " + FirebaseInstanceId.getInstance().getId());
 
-        //getAuthToken();
+        //getAuthToken
         FirebaseInstanceId.getInstance().getInstanceId()
                 .addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
                     @Override
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (inputMessage.what) {
                     case GET_NOTIFICATION:
                         String message = (String) inputMessage.obj;
-                        mInfoTextView.setText("Notification received while application opened:\n" + message);
+                        mInfoTextView.setText("Cloud Message received while application opened:\n" + message);
                         Log.d(TAG, "Displayed Message : " + message);
                         break;
                     default:
@@ -119,12 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-        // TODO Auto-generated method stub
         super.onResume();
-
-        if(null != MyFirebaseMessagingService.sMessage){
-            mInfoTextView.setText("Notification received while application in Bg:\n" + MyFirebaseMessagingService.sMessage);
-        }
     }
 
     @Override
@@ -153,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
         // Buider of the notification
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_launcher_background)
-                .setContentTitle("Michael App Note")
+                .setContentTitle("Mic App Notification")
                 .setContentText(message)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
